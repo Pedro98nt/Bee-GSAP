@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap');
+body { 
+  font-family: "Signika Negative", sans-serif; 
+  font-weight: 300;
+  background-color: #1d1d1d;
+  color: white;
+  
+  margin: 0;
+  padding: 15px;
+  
+  width: 550px !IMPORTANT;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  top: -15%;
+  left: 25%;
+}
+
+#logo {
+  width: 70%;
+  max-width: 250px;
+  margin-left: -12%;
+}
+
+h2{
+  color:
+}
+h1 { font-weight: 400; }
+
+/* Hide flash at start */
+body > * {
+  opacity: 0;
+}
+
+
+.bee{
+  width:50px;
+  height: 50px;
+  background: none;
+}
+
+.colmeia{
+  width: 150px;
+  position: relative;
+  top: 50%;
+  right: 35%;
+}
+img {
+    width: 150px;
+}
+.abelha{
+  width: 50px;
+  /*transform: rotate(45deg);*/
+  animation: move 3s ease;
+}
+@keyframes move{
+  0%{
+    transform: rotate(45deg);
+  }
+  49%{
+    transform: rotate(45deg);
+  }
+  50%{
+    transform:rotate(90deg)
+  }
+  100%{
+    transform:rotate(10deg)
+  }
+}
+.grama{
+    position: relative;
+    top: -20%;
+    left: 20%;
+}
